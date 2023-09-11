@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      @keyframes bounce {
+        0% {
+          transform: translateY(10000);
+        }
+        50% {
+          transform: translateY(-100px);
+        }
+        100% {
+          transform: translateY(10000);
+        }
+      }
+
+      .main-ball {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .ball {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border-radius: 50%;
+        background-color: red;
+        animation: bounce 4s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-ball">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <script>
+      // You can add some JS code here if you want
+    </script>
+  </body>
+</html>
